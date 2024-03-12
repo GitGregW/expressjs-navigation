@@ -1,0 +1,32 @@
+body{ margin: 0; padding: 0;}
+#page-header{
+    background-color: #00b49c;
+    margin: 0;
+    padding: 1rem 2rem;
+}
+#page-header__heading{
+    color: white;
+    font-size: 1.75rem;
+}
+#content__text{
+    font-size: 1rem;
+    margin: 1rem 3rem;
+}
+#users__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30rem;
+    margin: 0 2rem;
+    max-width: 90%;
+    list-style-type: none;
+}
+#users__list li{
+    text-decoration: none;
+    width: 32%;
+    padding: 0.75rem 0;
+    background-color: #fffa71;
+    border: black solid 1px;
+    font-weight: bold;
+    text-align: center;
+}
